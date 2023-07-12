@@ -10,7 +10,6 @@ const Backdrop = () => {
         <AccumulativeShadows
             position={[0, 0, -0.14]}
             ref={shadows}
-            temporal
             frames={60}
             alphaTest={0.85}
             scale={10}
